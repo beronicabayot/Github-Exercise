@@ -113,10 +113,28 @@ section h3 {
   background-color: rgba(255, 255, 255, 0.7);
   border-left: 4px solid #1a237e;
   transition: background-color 0.2s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .participants-list li:hover {
   background-color: rgba(255, 255, 255, 0.9);
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #c62828;
+  padding: 2px 6px;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: rgba(198, 40, 40, 0.1);
 }
 
 .no-participants {
